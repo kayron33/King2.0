@@ -152,7 +152,7 @@ button:hover{
     grid-template-columns: repeat(4,1fr);
     padding: 2.9rem;
     gap: 30px;
-    border: 1px solid black;
+   
    
 }
 
@@ -161,9 +161,6 @@ button:hover{
     height: 100%;
     border: 1px solid black;
     padding: .2rem;
-  
-    
-    
 }
 .box-comen .estre span{
 color: black;
@@ -181,9 +178,6 @@ color: black;
     display: flex;
     align-items: center;
     justify-content: inherit;
-    
-    
-    
 }
 .box-comen .foto img{
     width: 50px;
@@ -194,5 +188,58 @@ color: black;
 .box-comen .foto p{
     padding-left: 1.2rem;
 }
+
+/*PRINCIPAIS SITES*/
+.sites-vendi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.sites-vendi .box-sites{
+    width: 300px;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.sites-vendi .imagem-box-si {
+ width: 100%;
+ height: auto;
+ cursor: pointer;
+
+}
+.sites-vendi .imagem-box-si img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.sites-vendi .sobre-site{
+    text-align: center;
+    padding: 10px;
+
+
+}
+.sites-vendi .sobre-site h4{
+    font-weight: bold;
+}
+.sites-vendi .sobre-site p{
+    text-align: justify;
+
+}
+.sites-vendi .box-sites .btn{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+   
+
+}
+.sites-vendi .box-sites .btn:hover{
+    background-color: rgba(0, 0, 0, 0.705);
+}
+/*FOOTER DO SITE DA KING*/
+
+
+
 
 

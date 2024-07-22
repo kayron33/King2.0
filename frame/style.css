@@ -303,7 +303,28 @@ footer{
 }
 
 
+/*PARA CELULAR*/
 
+
+@media (max-width:1200px){
+
+}
+
+@media (max-width:1100px){
+    main .banner .form{
+        left: 0;
+    }
+    .produtos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-bottom: 10rem;
+        
+    }
+    .box{
+    width: 200px;
+    }
+
+}
 
 
 
